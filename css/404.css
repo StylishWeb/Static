@@ -1,0 +1,44 @@
+html,
+body {
+	font-family: 'Whitney SSm A', 'Whitney SSm B', Helvetica, Arial, Sans;
+	font-size: 100%;
+	color: #333;
+	padding: 0;
+	margin: 0;
+	background: #f1f1f1;
+	font-weight: 400;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+*::selection {
+	background: #dd1155;
+	color: #fff;
+}
+
+#wrapper {
+	margin: 24px auto;
+	padding: 32px;
+	max-width: 1000px;
+	background: #fff;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+}
+
+h1 {
+	color: #dd1155;
+	font-weight: 400;
+	font-size: 32px;
+	margin: 0 0 24px;
+	line-height: 24px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 24px;
+	margin: 0;
+}
